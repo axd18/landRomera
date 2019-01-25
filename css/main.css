@@ -4,11 +4,18 @@ body {
 	margin:0;
     padding:0;
 }
+/*HEADER*/
 .container{
     display: flex;
 }
 .contact{
     text-align: right;
+}
+/*FIN HEADER*/
+
+figure {
+    position: relative;
+    margin-top: 20px;
 }
 
 h3{
