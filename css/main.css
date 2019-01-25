@@ -1,0 +1,185 @@
+
+
+body {
+	margin:0;
+    padding:0;
+}
+.container{
+    display: flex;
+}
+.contact{
+    text-align: right;
+}
+
+
+
+/*FORMULARIO*/
+.btn{
+    background: #00c0f3;
+    color:white;
+}
+
+.contact-form{
+    background: #c7cdd0;
+    padding: 45px 40px;
+    position: absolute;
+    width:20%;
+    margin-left:60%;
+    
+}
+
+#landingForm{
+    align-items: center;
+}
+
+input[type="text"],input[type="tel"],input[type="email"],input[type="password"],textarea, select{
+	    background-color: #ffffff;
+    color: #6a6a6a;
+    box-shadow: inset 0px 1px 2px #dddddd;
+    -webkit-box-shadow: inset 0px 1px 2px #dddddd;
+    -moz-box-shadow: inset 0px 1px 2px #dddddd;
+    border-radius: 3px;
+        border-style: solid;
+    border-width: 1px;
+    border-color: #bbbbbb;
+    width: 100%;
+    font-size: 16px;
+    line-height: 16px;
+    height: 34px;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-bottom: 15px;
+}
+input[type="text"].tranparent,input[type="tel"].tranparent,input[type="email"].tranparent,input[type="password"].tranparent,textarea.tranparent{
+	background:none;
+	border:1px solid #7cbf1d;
+	color:#7cbf1d;
+}
+textarea{
+	height:180px;
+	padding:25px 35px;
+}
+label{
+	color:#fff;
+    font-size: 14px;
+    font-family: arial;
+}
+/*FIN FORMULARIO*/
+
+/*IMG1*/
+.img-1 {
+    position: relative;
+    width:100vw;
+}
+
+
+
+/*FIN IMG1*/
+
+/*IMG2*/
+.img-2{
+    width:100vw;
+}
+
+/*FOOTER*/
+footer{color: #fff;
+    background: #9aa5b0;
+    padding: 25px 0;
+}
+
+footer li{
+    display: inline-block;
+    margin-left: 18px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    line-height: 45px;
+    text-align: center;
+    font-size: 20px;
+}
+/*FIN FOOTER*/
+
+/*RESPONSIVE*/
+
+@media screen and (max-width:600px){
+    .contact-form{
+        position: relative;
+        width: 100%;
+        margin-left:0%;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    .container{width: 100%;}
+    
+}
+/*===Break Point===*/
+@media (max-width: 990px) {
+    h1{font-size: 64px;}
+    h2{font-size: 36px;}
+   
+}
+/*===Break Point===*/
+@media (max-width: 767px) {
+    .homes .sign-up h1{margin-bottom: 55px;}
+    .homes .signup-form{margin: 50px auto; max-width: 75%;}
+    .homes .sign-up .subscribe .fa{display: none;}
+    .homes .sign-up .info{padding-top: 50px;}
+    .homes .signup-form h4{margin-bottom: 18px;}
+    .homes .welcome figure{display: none;}
+    .homes .welcome{padding-bottom: 0;}
+    .homes .features figure img{width: 100%;}
+    .homes .features{padding-bottom: 0; padding-top: 20px;}
+    .homes footer span,.homes footer ul{float: none !important;}
+    .homes footer{text-align: center;}
+    .homes footer ul{padding: 0; margin-top: 25px;}
+}
+/*===Break Point===*/
+@media (max-width: 600px) {
+    h4{font-size: 20px;}
+   .homes .signup-form{max-width: 100%;}
+    .homes .signup-form{padding: 20px 24px;}
+    
+}
+@media (max-width:560px){
+    h1{font-size: 50px;}
+    h2{font-size: 30px;}
+    .homes .sign-up .subscribe{font-size: 20px;}
+    .homes header a.logo,.homes header .contact{text-align: center;  width: 25%;/*float: none !important; display: block;*/}
+    .homes header a.logo{margin: 15px 0px; width: 75%;}
+    .homes .testimonials{text-align: center;}
+    .homes .testimonial span{margin-top: 5px;}
+    .homes .testimonial figure{position: relative; margin-bottom: 20px;}
+    .homes .testimonial{padding-left: 0; text-align: center; margin-top: 10px; margin-bottom: 20px;}
+}
+/*===Break Point===*/
+@media (max-width: 360px) {
+   
+    
+}
+ #output{
+	 padding-bottom:10px
+ }
+ 
+figure img{
+ width: 100%;
+    height: auto;
+}
+.text-diagonal {
+  font-family: 'vwhead_bold', sans-serif;
+  color: #ebebeb;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 75px;
+  text-shadow: #212121 6px 6px 0;
+  position: relative;
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+}
+.text-diagonal {
+  top: 20px;
+}
+
+

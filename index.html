@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalabe=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--<link rel="stylesheet" href="css/reset.css">-->
+    <title>Landing Template</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+</head>
+<body>
+    <header id="inicio">
+        <div class="container">
+            <a href="http://romerahnos.com/" class="logo pull-left"><figure><img src="img/logo-header.png" alt="Logo Romera"></figure></a>
+            <div class="contact pull-right ml-auto">
+                <figure><img src="img/iso-vw.png" alt="Iso VW"></figure> 
+            </div>
+    
+        </div>
+    </header>
+
+
+    <!--IMG1-->
+    <section class="img-1">
+       <div class="row formulario">
+            <div class="col-sm-12 col-md-12">
+                <form action="" method="post" class="contact-form" id="landingForm" name="landingForm">
+                    <h4 class="color-white text-center"></h4>
+                    <div id="output" class="response-message"><?=$output?></div>
+                    <input type="text" placeholder="Nombre" name="nom" id="nom" class="required" value="<?=$nombre?>">
+                    <input type="email" placeholder="E-mail" name="email" id="email" class="required" value="<?=$email?>">
+                    <input type="text" placeholder="Tel&eacute;fono" name="tel" id="tel" class="required" value="<?=$tel?>">
+                    <input type="text" placeholder="Localidad" name="loc" id="loc" class="required" value="<?=$loc?>">
+                    <input name="enviar" type="submit" value="&iexcl;Quiero mi Volkswagen!" class="btn btn-wide mt-20">
+                </form>
+                <img class="img-fluid" src="img/eventos.jpg" alt="">
+            </div>
+        
+    
+    </section>
+    <!--IMG1-->
+    
+    <!--IMG2-->
+    <section class="img-2">
+       
+        <div class="row">
+            <div class="col-sm-12 col-md-12" >
+                
+                <img class="img-fluid" src="img/eventos-1.jpg" alt="">
+            </div>
+        </div>
+    
+    </section>
+    <!--IMG2-->
+
+    <footer>
+        <div class="container">
+            <span class="rights pull-left">&copy; 2019 Romera Hnos. </span>
+            <ul class="pull-right">
+                <li><a href="https://api.whatsapp.com/send?phone=5492233001111" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                <li><a href="https://es-la.facebook.com/romerahnos/" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com/romerahnos?lang=es" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCmHCIQJpH1dwcNgN-SZISmQ" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com/romera_hnos/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+   
+    
+  
+
+    
+    
+    
+    
+   
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
