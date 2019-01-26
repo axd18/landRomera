@@ -136,8 +136,25 @@ footer li{
     }
 }
 
+@media screen and (min-width:768px){
+    .contact-form{
+        position: absolute;
+        width: 40%;
+        margin-left:55%;
+    }
+    h3{
+        color: white;
+        position:absolute;
+        
+        margin-left: 2%;
+        margin-top: 5%;
+        font-size: 3em;
+        
+    }  
+}
 
-@media (max-width: 1199px) {
+
+/*@media (max-width: 1199px) {
     .container{width: 100%;}
     
 }
