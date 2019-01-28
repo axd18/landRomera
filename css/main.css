@@ -103,7 +103,10 @@ footer{color: #fff;
     background: #9aa5b0;
     padding: 25px 0;
 }
-
+footer span{
+    display: block;
+    margin-top: 12px;
+}
 footer li{
     display: inline-block;
     margin-left: 18px;
