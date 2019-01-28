@@ -88,15 +88,13 @@ label{
     position: relative;
     width:100vw;
 }
-
-
-
 /*FIN IMG1*/
 
 /*IMG2*/
 .img-2{
     width:100vw;
 }
+/*FIN IMG2*/
 
 /*FOOTER*/
 footer{color: #fff;
@@ -118,8 +116,28 @@ footer li{
     text-align: center;
     font-size: 20px;
 }
+
+i.fa.fa-whatsapp{
+    color:white;
+}
+i.fa.fa-facebook-f{
+    color:white;
+}
+i.fa.fa-twitter{
+    color:white;
+}
+i.fa.fa-instagram{
+    color:white;
+}
+i.fa.fa-youtube{
+    color:white;
+}
 /*FIN FOOTER*/
 
+/*LEGALES*/
+p {
+    font-size: 1em;
+}
 /*RESPONSIVE*/
 
 @media screen and (max-width:600px){
