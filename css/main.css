@@ -1,3 +1,11 @@
+@font-face{
+    font-family: "vwhead_bold";
+    src: local(vwhead_bold.ttf),
+        url(http://romerahnos.com/cuida-tus-ahorros/assets/fonts/vwhead_bold.ttf),
+        url(http://romerahnos.com/cuida-tus-ahorros/assets/fonts/vwhead_bold.woff),
+        url(http://romerahnos.com/cuida-tus-ahorros/assets/fonts/vwhead_bold.otf);
+    
+}
 
 
 body {
@@ -13,20 +21,25 @@ body {
 }
 /*FIN HEADER*/
 
+/*TEXTO*/
+
 figure {
+    
     position: relative;
     margin-top: 20px;
 }
 
-h3{
+h3 {
+    font-family: 'vwhead_bold', bold;
+    
     color: white;
     position:absolute;
     text-align: center;
     margin-left: 20%;
     margin-top: 5%;
     font-size: 4em;
-    
 }
+/*FIN TEXTO*/
 
 
 
@@ -96,6 +109,13 @@ label{
 }
 /*FIN IMG2*/
 
+/*LEGALES*/
+.testimonials{
+    margin: 3% 0% 3% 0%;
+    font-size:14px;
+}
+/*FIN LEGALES*/
+
 /*FOOTER*/
 footer{color: #fff;
     background: #9aa5b0;
@@ -134,10 +154,8 @@ i.fa.fa-youtube{
 }
 /*FIN FOOTER*/
 
-/*LEGALES*/
-p {
-    font-size: 1em;
-}
+
+
 /*RESPONSIVE*/
 
 @media screen and (max-width:600px){
