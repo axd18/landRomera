@@ -1,15 +1,17 @@
 @font-face{
-    font-family: "vwhead_bold";
-    src: local(vwhead_bold.ttf),
+    font-family: 'vwhead_bold';
+    src: 
         url(http://romerahnos.com/cuida-tus-ahorros/assets/fonts/vwhead_bold.ttf),
         url(http://romerahnos.com/cuida-tus-ahorros/assets/fonts/vwhead_bold.woff),
+        url(http://romerahnos.com/cuida-tus-ahorros/assets/fonts/vwhead_bold.svg),
         url(http://romerahnos.com/cuida-tus-ahorros/assets/fonts/vwhead_bold.otf);
     
 }
 
 
 body {
-	margin:0;
+    font-family: 'vwhead_bold', bold;
+    margin:0;
     padding:0;
 }
 /*HEADER*/
